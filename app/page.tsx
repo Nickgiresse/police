@@ -1,16 +1,6 @@
 'use client'
 
 import React, { useState } from 'react';
-import { 
-  AlignLeft, 
-  AlignCenter, 
-  AlignRight, 
-  Bold, 
-  Italic, 
-  RotateCcw,
-  Type,
-  Minus
-} from 'lucide-react';
 
 export default function TextEditor() {
   const [text, setText] = useState('WBS Solidarity Foundation');
